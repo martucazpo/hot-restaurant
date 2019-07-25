@@ -1,0 +1,20 @@
+{
+  "name": "hot-restaurant",
+  "version": "1.0.0",
+  "description": "HTML/CSS",
+  "main": "jquery-3.4.1.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martucazpo/hot-restaurant.git"
+  },
+  "author": "Matthew, Mat, Marco, Latrese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martucazpo/hot-restaurant/issues"
+  },
+  "homepage": "https://github.com/martucazpo/hot-restaurant#readme"
+}
