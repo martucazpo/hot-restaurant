@@ -91,13 +91,13 @@
         for (var i = 0; i < data.length; i++) {
           var newDiv = $('<li>');
           var name = $('<h1>');
-          name.text(data[i].customerName);
+          name.text(`${data[i].customerName}`);
           var number = $('<p>');
-          number.text(data[i].phoneNumber);
+          number.text(`Number: ${data[i].phoneNumber}`);
           var email = $('<p>');
-          email.text(data[i].customerEmail);
+          email.text(`Email: ${data[i].customerEmail}`);
           var id = $('<p>');
-          id.text(data[i].customerId);
+          id.text(`Customer ID: ${data[i].customerID}`);
           newDiv.append(name);
           newDiv.append(number);
           newDiv.append(email);
@@ -118,10 +118,10 @@
           var email = $('<p>');
           var id = $('<p>');
 
-          name.text(data[i].customerName);
-          number.text(data[i].phoneNumber);
-          email.text(data[i].customerEmail);
-          id.text(data[i].customerId);
+          name.text(`${data[i].customerName}`);
+          number.text(`Number: ${data[i].phoneNumber}`);
+          email.text(`Email: ${data[i].customerEmail}`);
+          id.text(`Customer ID: ${data[i].customerID}`);
 
           newDiv.append(name);
           newDiv.append(number);
